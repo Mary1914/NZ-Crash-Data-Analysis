@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NZ Crash Data Analysis | Full Report</title>
+
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.65; margin: 32px; color:#1f2937; }
+    h1 { font-size: 38px; margin: 0 0 8px; color:#0f172a; }
+    h2 { margin-top: 28px; color:#0f172a; }
+    h3 { margin-top: 18px; color:#0f172a; }
+    p, ul { max-width: 980px; }
+    .small { color:#64748b; font-size: 14px; }
+    .btn {
+      display:inline-block; padding:10px 16px; margin: 10px 10px 0 0;
+      background:#0f172a; color:#fff; text-decoration:none; border-radius:8px;
+      font-weight:bold;
+    }
+    .btn.secondary { background:#475569; }
+    .btn:hover { background:#111827; }
+    .btn.secondary:hover { background:#334155; }
+    .card { background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:16px; margin: 16px 0; max-width: 1080px; }
+    .pdfbox { border:1px solid #e2e8f0; border-radius:10px; overflow:hidden; background:#fff; margin: 14px 0; max-width: 1080px; }
+    .pdfbox header { padding:12px 14px; background:#f1f5f9; border-bottom:1px solid #e2e8f0; font-weight:bold; }
+    iframe { width:100%; height:560px; border:0; }
+    .kpi { display:flex; flex-wrap:wrap; gap:10px; margin-top:8px; }
+    .pill { background:#eef2ff; color:#3730a3; padding:6px 10px; border-radius:999px; font-size:13px; }
+  </style>
+</head>
+
+<body>
+
+  <a class="btn secondary" href="index.html">← Back to Home</a>
+
+  <h1>NZ Crash Data Analysis — Full Report</h1>
+  <p class="small">
+    Dashboards are included as PDFs for easy viewing (and downloadable).
+  </p>
+
+  <div class="kpi">
+    <div class="pill">Region comparison</div>
+    <div class="pill">Weather impact</div>
+    <div class="pill">Time-based patterns</div>
+  </div>
+
+  <div class="card">
+    <h2>Objective</h2>
+    <p>
+      Analyse New Zealand crash statistics to identify where and when crash risk increases,
+      and highlight safety signals that can support evidence-based road safety decisions.
+    </p>
+
+    <!-- IMPORTANT: update filename if you rename dataset -->
+    <a class="btn secondary" href="dataset_crash_codes_clean.csv" download>⬇ Download Dataset (CSV)</a>
+  </div>
+
+  <h2>Dashboards (PDF)</h2>
+  <p>
+    Below are the dashboard pages (PDF). Recruiters can scroll inside the embedded views or open the PDFs directly.
+  </p>
+
+  <div class="pdfbox">
+    <header>Dashboard 1 — Overview</header>
+    <iframe src="dashboard1.pdf"></iframe>
+    <p style="padding:0 14px 14px;">
+      <a class="btn secondary" href="dashboard1.pdf">Open PDF</a>
+    </p>
+  </div>
+
+  <div class="pdfbox">
+    <header>Dashboard 2 — Region & Weather Patterns</header>
+    <iframe src="dashboard2.pdf"></iframe>
+    <p style="padding:0 14px 14px;">
+      <a class="btn secondary" href="dashboard2.pdf">Open PDF</a>
+    </p>
+  </div>
+
+  <div class="pdfbox">
+    <header>Dashboard 3 — Time Trends & High-Risk Conditions</header>
+    <iframe src="dashboard3.pdf"></iframe>
+    <p style="padding:0 14px 14px;">
+      <a class="btn secondary" href="dashboard3.pdf">Open PDF</a>
+    </p>
+  </div>
+
+  <h2>Key Insights</h2>
+
+  <h3>1) Regional crash concentration</h3>
+  <ul>
+    <li>Crash counts are not evenly distributed — a small number of regions contribute a large share.</li>
+    <li>This indicates clear opportunities for targeted enforcement and infrastructure upgrades.</li>
+  </ul>
+
+  <h3>2) Weather conditions matter</h3>
+  <ul>
+    <li>Crash trends change under poor weather conditions (e.g., wet or low-visibility periods).</li>
+    <li>This suggests road condition messaging and winter/seasonal readiness campaigns can reduce risk.</li>
+  </ul>
+
+  <h3>3) Time-of-day / day-of-week patterns</h3>
+  <ul>
+    <li>Crash patterns vary across time periods, suggesting predictable high-risk windows.</li>
+    <li>Targeting these windows helps optimise police patrols and public awareness campaigns.</li>
+  </ul>
+
+  <h2>Recommendations</h2>
+  <ul>
+    <li><strong>Target high-crash regions:</strong> prioritise engineering improvements (lighting, signage, barriers) and enforcement in top regions.</li>
+    <li><strong>Weather-triggered safety actions:</strong> activate alerts and reduce speed messaging during high-risk weather conditions.</li>
+    <li><strong>Time-based scheduling:</strong> align patrols, awareness campaigns, and driver messaging with peak risk time periods.</li>
+    <li><strong>Continuous monitoring:</strong> build monthly/quarterly dashboards to track whether actions reduce crash rates.</li>
+  </ul>
+
+  <h2>Skills Demonstrated</h2>
+  <ul>
+    <li>Data cleaning and analysis using <strong>Python</strong></li>
+    <li>Querying and aggregation using <strong>SQL</strong></li>
+    <li>Dashboard creation and storytelling using <strong>Power BI / Tableau</strong></li>
+    <li>Turning analysis into <strong>business/government-ready insights</strong></li>
+  </ul>
+
+</body>
+</html>
