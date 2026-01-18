@@ -1,54 +1,146 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NZ Crash Data Analysis | Portfolio Project</title>
+  <meta charset="utf-8">
+  <title>NZ Crash Data Analysis | Power BI & Tableau</title>
 
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 32px; color: #1f2937; }
-    h1 { font-size: 40px; margin: 0 0 10px; color: #0f172a; }
-    h2 { margin-top: 28px; color: #0f172a; }
-    p { max-width: 980px; }
-    ul { max-width: 980px; }
-    .tag { display:inline-block; background:#eef2ff; color:#3730a3; padding:6px 10px; border-radius:999px; font-size:13px; margin-right:8px; margin-top:8px; }
-    .card { background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:16px; margin: 16px 0; max-width: 1080px; }
-    .btn {
-      display:inline-block; padding:12px 18px; margin: 10px 10px 0 0;
-      background:#0f172a; color:#fff; text-decoration:none; border-radius:8px;
-      font-weight:bold;
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
     }
-    .btn:hover { background:#111827; }
-    .btn.secondary { background:#475569; }
-    .btn.secondary:hover { background:#334155; }
-    .small { color:#64748b; font-size: 14px; }
-    .grid { display:grid; grid-template-columns: 1fr; gap:16px; }
-    .pdfbox { border:1px solid #e2e8f0; border-radius:10px; overflow:hidden; background:#fff; }
-    .pdfbox header { padding:12px 14px; background:#f1f5f9; border-bottom:1px solid #e2e8f0; font-weight:bold; }
-    iframe { width:100%; height:560px; border:0; }
+
+    h1 {
+      font-size: 40px;
+      color: #1f4e79;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-top: 40px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 26px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: #1f4e79;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .btn:hover {
+      background-color: #163a5c;
+    }
+
+    .card {
+      background: #f7f9fb;
+      border: 1px solid #e2e8f0;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
   </style>
 </head>
 
 <body>
 
-  <h1>NZ Crash Data Analysis (Official Statistics)</h1>
+<h1>NZ Crash Data Analysis</h1>
 
-  <div class="tag">Python</div>
-  <div class="tag">SQL</div>
-  <div class="tag">Power BI / Tableau</div>
-  <div class="tag">Data Storytelling</div>
+<p>
+This project analyses official New Zealand road crash data to identify
+patterns related to <strong>time</strong>, <strong>weather</strong>,
+<strong>region</strong>, and <strong>road type</strong>.
+The goal is to support evidence-based road safety decisions.
+</p>
 
-  <p>
-    This project analyses New Zealand crash/fatality statistics to identify trends by <strong>region</strong>,
-    <strong>weather</strong>, and <strong>time</strong>. The goal is to help decision-makers prioritise road safety actions
-    using evidence-based insights.
-  </p>
+<ul>
+  <li>Crash & injury trends by day, hour, and region</li>
+  <li>Impact of weather conditions on crash severity</li>
+  <li>Fatal crash patterns across road categories</li>
+</ul>
 
-  <!-- IMPORTANT: update this dataset filename if you rename it -->
-  <a class="btn secondary" href="dataset_crash_codes_clean.csv" download>⬇ Download Dataset (CSV)</a>
+<a href="#dashboards" class="btn">View Dashboards ↓</a>
 
-  <a class="btn" href="report.html">View Full Report →</a>
+<hr>
 
+<div class="card">
+<h2>Key Insights (Summary)</h2>
+<ul>
+  <li>Weekdays show higher injury counts compared to weekends</li>
+  <li>Most crashes occur during daytime and evening peak hours</li>
+  <li>Fine weather still accounts for the majority of crashes, indicating volume risk</li>
+  <li>Urban arterial and major roads contribute heavily to total crash counts</li>
+  <li>Fatal crashes vary significantly by region and year</li>
+</ul>
+</div>
 
-  <div class
+<hr>
 
+<h2 id="dashboards">Dashboard 1: Injuries by Day & Weather</h2>
+<p>
+This dashboard shows how injury counts vary across days of the week
+and different weather conditions.
+</p>
+<img src="dashboard1.pdf" alt="Dashboard 1 - Injuries by Day and Weather">
+
+<hr>
+
+<h2>Dashboard 2: Crash Timing & Road Category</h2>
+<p>
+This dashboard highlights crash patterns by <strong>hour of the day</strong>
+and <strong>road category</strong>.
+Clear peak periods are visible during morning and evening travel times.
+</p>
+<img src="dashboard2.pdf" alt="Dashboard 2 - Crash Timing and Road Category">
+
+<hr>
+
+<h2>Dashboard 3: Fatal Crashes by Region (Trend)</h2>
+<p>
+This dashboard shows long-term trends in fatal crashes across New Zealand regions,
+revealing regional variation and changing risk patterns over time.
+</p>
+<img src="dashboard3.pdf" alt="Dashboard 3 - Fatal Crash Trends by Region">
+
+<hr>
+
+<h2>Dataset</h2>
+<p>
+The cleaned crash dataset used for this analysis is available below:
+</p>
+<p>
+<a href="dataset crash codes clean.xlsx - Sheet1.csv" download>
+⬇ Download Dataset (CSV)
+</a>
+</p>
+
+<hr>
+
+<h2>Tools & Skills Demonstrated</h2>
+<ul>
+  <li>Power BI dashboard development</li>
+  <li>Tableau visual analytics</li>
+  <li>Data cleaning and preparation (CSV / Excel)</li>
+  <li>Exploratory data analysis</li>
+  <li>Data storytelling for decision-making</li>
+</ul>
+
+</body>
+</html>
