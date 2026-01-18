@@ -1,0 +1,344 @@
+101,Alcohol suspected
+102,Alcohol test below limit
+103,Alcohol test above limit or test refused
+105,"Impaired non-driver (pedestrian /cyclist/passenger, etc)."
+100,Other - alcohol
+108,Drugs suspected
+109,Drugs present
+221,"Impaired non-driver (pedestrian /cyclist/passenger, etc)."
+220,Other drugs
+381,Another vehicle
+383,Pedestrian
+385,Size or position of fixed object or obstacle.
+386,Own vehicle
+387,Misjudged intentions of another party
+380,"Other - misjudged speed, distance, size or position"
+501,Sudden illness
+504,Medical illness
+505,Mental illness
+506,Attempted suicide
+500,Other illness
+502,Physical impairment
+503,Defective vision
+507,Impaired ability due to old age.
+508,Other disability
+521,Intentionally leaving/boarding moving vehicle
+523,Riding in insecure position.
+524,Interfered with driver.
+525,Opened door inadvertently
+527,Child playing in parked vehicle
+520,"Other - driver or passenger boarding, leaving or in vehicle"
+531,Casualty drowned
+532,Casualty thrown from vehicle
+535,Electrocution
+536,Unsecured child seat
+537,Child restrained failure/inappropriate
+672,Seatbelt failed/defective
+673,Air bag failed/defective
+530,Other - reasons for death/injury
+111,Entering /on curve
+112,On straight
+113,Approaching a traffic control
+115,When passing school bus.
+116,At temporary speed limit
+117,At crash or emergency
+118,For road conditions
+119,For weather conditions
+182,Travelling unreasonably slowly
+110,Other inappropriate speed conditions
+121,Swung wide on bend
+122,Swung wide at intersection
+123,Cutting corner on bend
+124,Cutting corner at intersection
+125,Too far right
+126,Vehicle crossed flush median
+129,Too far left
+120,Other position on road
+131,Lost control when turning
+132,Lost control under braking
+133,Lost control under acceleration
+134,Lost control while returning to seal from unsealed shoulder
+135,Lost control - road conditions
+136,Lost control - vehicle fault
+137,Lost control avoiding another party
+130,Other lost control
+141,Failed to signal in time
+145,Incorrect signal
+140,Other failed to signal
+151,Overtaking line of traffic or queue
+152,Overtaking in the face of oncoming traffic
+156,With insufficient visibility
+157,Overtaking at an intersection
+158,On left without due care
+159,Cut in after overtaking
+160,Vehicle signalling turn
+150,Other overtaking
+171,Turned from incorrect lane
+173,Travelled straight from turning lane or flush median
+174,Turned from incorrect position on road
+176,Turned into incorrect lane
+177,Weaving or cut in on multi-lane roads
+179,Long vehicle tracked outside lane
+184,Incorrect merging / diverging
+170,Other wrong lane or position
+183,Motorist crowded cyclist
+181,Following too closely
+180,Other - too close
+191,Suddenly braked
+192,Suddenly turned left/right
+194,Swerved to avoid pedestrian
+195,Swerved to avoid animal
+196,Swerved to avoid crash or broken down vehicle
+197,Swerved to avoid vehicle
+199,Swerved avoiding emergency vehicle
+190,Other sudden action
+201,Wrong way on road/ motorway
+202,Non-compliance with regulatory device with sign or marking
+204,Driving / riding in pedestrian space
+208,Motor vehicle in special purpose lane
+200,Other - forbidden movements
+321,At Stop sign
+322,At full red traffic signal
+324,At amber traffic signal
+326,"At flashing red signals (railway crossing, fire stations,etc.)."
+327,For traffic controller
+328,For school patrol/kea crossing
+320,Other - did not stop
+301,At a priority traffic control
+303,When turning to non-turning traffic.
+304,When priority defined by road markings
+306,To a pedestrian
+308,When entering roadway from driveway
+309,To traffic approaching or crossing from the right
+312,Entering roadway not from driveway or intersection.
+313,Failed to give way to emergency vehicle
+314,Driver waved through
+315,When turning right to opposing left turning traffic
+316,To traffic approaching or crossing from the left
+300,Other - failed to give way
+351,Passengers
+354,Animal or insect in vehicle
+357,Emotionally upset / road rage
+359,Cell phone
+361,Navigation device
+364,Vehicle console inbuilt features: radio/heater/etc.
+365,Objects under driver‚Äôs pedals
+366,"Food, cigarettes, beverages"
+362,Non cell communication device
+352,Scenery or persons outside vehicle
+353,Other traffic
+355,"Trying to find intersection, house number, destination, etc."
+356,Advertising or signs.
+363,Driver dazzled
+350,Other - attention diverted by (inside or outside vehicle)
+331,"Vehicle slowing, stopping or stationary in front"
+332,Bend in road
+333,Indication of vehicle in front
+334,Failed to notice control
+336,Failed to notice signs
+339,Failed to notice road works
+340,Failed to notice markings
+341,Obstructions on roadway
+534,Another party wearing dark clothing
+330,Other - inattentive
+371,Did not check/notice another party behind
+375,Did not check/notice another party
+377,When visibility obstructed by other traffic.
+370,Other - did not see or look
+401,In driving in fast complex or heavy traffic
+402,New driver/ under instruction
+403,Driving unfamiliar with vehicle/towing
+404,Overseas / migrant driver fails to adjust to NZ road rules and road conditions
+407,Driver over-reacted
+400,Other lack of experience
+411,Long trip
+412,Lack of sleep
+414,Long day (working/recreation)
+415,Exceeded driving hours
+410,Other fatigue
+421,Started in gear / stalled
+423,Wrong pedal / foot slipped
+426,Lights not switched on
+428,Parking brake not fully applied.
+429,Trailer coupling or safety chain not secured.
+420,Other vehicle controls
+441,Parked vehicle is not visible
+443,Incorrectly parked vehicle
+447,Not clear of rail Xing
+440,Other parking
+431,Racing
+432,Playing 'chicken'
+433,Wheel spins / wheelies / doughnuts / drifting etc
+434,Intimidating driving
+430,Other intentional actions
+511,Homicide/suicide (successful)
+512,Intentional collision
+514,Evading enforcement
+515,Object thrown (at/by/from)
+518,Over the speed limit
+510,Other intentional or criminal
+701,Not keeping to footpath.
+702,Not keeping to side of road
+703,Not facing oncoming traffic
+704,Not on outside of blind curve
+705,Wheeled pedestrian behaviour
+700,Other - pedestrian walking along the road
+711,Walking heedless of traffic
+712,Stepping out from behind vehicles.
+713,Running heedless of traffic.
+714,Failed to use pedestrian crossing when one within 20 metres.
+715,Waiting on carriageway/confused by traffic
+717,Stepping suddenly onto crossing
+718,Not complying with traffic signals or school patrols.
+719,Misjudged speed and/or distance of vehicle.
+740,Looking the wrong way
+710,Other - pedestrian crossing the road
+721,"Pushing, working on or unloading vehicle."
+722,Playing / unnecessarily on road.
+723,Working on road
+725,Vision obscured by umbrella or hood
+726,Child escaped from supervision
+727,Unsupervised child
+729,Pedestrian from or to school bus
+730,Pedestrian behind reversing /manoeuvring vehicle
+731,Overseas pedestrian
+732,"Pedestrian attention diverted by cigarette, cell phone, music player"
+733,Pedestrian from or to scheduled service
+533,Equestrian not keeping to verge
+720,Other - pedestrian
+601,Dazzling headlights
+602,Headlights inadequate/ no headlights or failed suddenly
+604,Brake lights or indicators faulty or not fitted
+605,Tail lights inadequate or no tail lights
+606,Reflectors inadequate or no reflectors
+607,Lights or reflectors obscured
+608,Confusing/dazzling lights
+609,Lights or reflectors at fault or dirty
+600,Other - lights or reflectors
+611,Parking brake failed/defective
+613,Service brake failed
+614,Service brake defective
+615,Jack-knifed - uneven braking
+610,Other - brakes
+621,Defective
+622,Failed suddenly
+620,Other - steering
+631,Puncture or blowout
+632,Worn tread on tyre
+633,Incorrect tyre type
+634,Mixed types (tread)/space savers
+630,Other - tyres
+641,Shattered windscreen
+642,Vehicle windows/helmet visors/goggles/glasses/misted/dirty/ windscreen wipers
+643,Rear vision mirror
+640,Other - windscreen/mirror
+651,Engine failure
+652,Transmission failure /broken axil
+653,Accelerator or throttle jammed
+650,Other mechanical
+661,"Body, chassis or frame (cycle/motorcycle) failure"
+662,Suspension failure
+665,Inadequate tow coupling
+666,Inadequate or no safety chain
+668,Wheel off
+660,Other -chassis/gear
+667,"Door/bonnet catch failed, defective or not shut"
+670,Inconspicuous colour
+671,Blind spot
+664,Other body/doors
+681,Load interferes with driver
+682,Not well secured
+683,Over-hanging
+684,Load obscured vision
+686,Over-dimensional vehicle or load
+687,Load too heavy
+688,Towed vehicle or trailer too heavy or incompatible
+680,Other - load
+691,Emergency vehicle
+692,Vehicle caught fire
+693,Being towed
+697,Software failure
+690,Other - vehicle
+804,Loose material on seal
+807,Painted markings
+808,Recently graded
+809,Surface bleeding/defective
+813,Deep loose metal
+828,Steel/iron covers and joints
+801,Rain
+802,Frost or ice
+803,Snow or hail
+805,Mud/effluent
+806,Oil/fuel
+800,Other - slippery
+811,Potholed
+812,Uneven
+814,High crown
+815,Curve not well banked
+816,Edge badly defined or gave way
+817,Under construction or maintenance
+818,Unusually narrow
+810,Other - surface condition
+821,Fallen tree or branch
+822,Slip or subsidence
+823,"Flood waters, large puddles and fords."
+824,Road works not adequately lit/sign posted
+826,Roadside object fell on vehicle
+827,Object flicked by other vehicle
+820,Other - road obstructed
+831,Curve
+832,Crest
+837,Bank
+849,Traffic signs
+833,Building
+834,Trees
+835,Hedge or fence
+836,"Scrub, long grass or foliage"
+838,"Temporary obstruction, dust or smoke"
+839,Parked vehicle
+829,Signs/billboards/hoardings
+830,Other - road feature limit visibility
+841,Damaged removed or malfunction
+842,Badly located
+843,Ineffective / inadequate/obscured
+844,Necessary
+845,Signals off
+840,Other - signs or signals
+851,Faded
+852,Difficult to see due to weather or geometry
+853,Markings necessary
+872,"Traffic island(s) ineffective, badly located or designed."
+884,Barriers necessary
+885,Island necessary
+850,Other - markings/islands/barriers
+861,Failed
+862,Inadequate for road and pedestrian crossing
+860,Other - street lighting factors
+901,Heavy rain
+902,Dazzling sun
+903,Strong wind
+904,Fog or mist
+905,"Snow, sleet or hail"
+900,Other - weather
+910,Other - animal factors
+911,Household pets rushed out or playing.
+912,Farm animals straying
+913,"Farm animals attended, but inadequate warning or unexpected."
+914,"Farm animals attended, but out of control."
+915,Wild animal
+999,Unknown
+920,other entering or leaving land use
+921,roadside stall
+922,service station
+923,specialised liquor outlet
+924,take-away food outlet
+925,shopping complex
+926,car parking building/area
+927,other commercial activity
+928,industrial site
+929,private house or farm
+930,non-commercial activities
+931,mobile shop or vendor
+305,"when turning left, to opposing right turning traffic (old road rule)"
+517,Stolen vehicle
+358,"Cigarette, radio, glove box, heater, AC, obj under driver feet/pedals etc"
